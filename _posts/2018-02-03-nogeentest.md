@@ -1,0 +1,12 @@
+---
+layout: post
+title: 2018-02-03-nogeentest
+excerpt:
+date: 2018-02-03 20:13:33 
+published: true
+---
+
+Hoe handig kan ik direct een eigen foto op mijn site posten vanaf mijn telefoon? De route is dat ik ergens de foto op Github moet krijgen en daarna in een post met de tekst. 
+
+![Image](images/asset.jpg)
+
