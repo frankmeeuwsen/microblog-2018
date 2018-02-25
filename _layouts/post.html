@@ -1,0 +1,37 @@
+---
+layout: default
+---
+{% if page.header %}
+<img src="{{ site.url }}{{site.imageurl}}{{ page.header}}">
+{% endif  %}
+<article class="post h-entry">
+  <h1 class="p-name">{{ page.title }}</h1>
+
+  {% include post/meta.html %}
+
+  <div class="entry e-content">
+    {{ content }}
+  </div>
+
+  <div id="page-navigation">
+      <div class="previous">
+  {% if page.previous.url %}
+        <a href="{{ site.baseurl }}{{ page.previous.url }}" title="Previous Post:
+  {{page.previous.title}}">{{page.previous.title}}</a>
+  {% endif %}
+      </div>
+
+      <div class="next">
+  {% if page.next.url %}
+        <a href="{{ site.baseurl }}{{ page.next.url }}" title="next Post:
+  {{page.next.title}}">{{page.next.title}}</a>
+  {% endif %}
+      </div>
+  </div>
+{% if page.syndication %}
+<a href="https://news.indieweb.org/nl" class="u-syndication"></a>
+{% endif %}
+
+{% include webmentions.html %}
+
+</article>
