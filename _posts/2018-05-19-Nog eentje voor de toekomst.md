@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Nog eentje voor de toekomst
-date: 2018-05-19T233507CEST
+date: 2018-05-19 23:35:00 +0200
 excerpt: Doc Brown naar de toekomst
 published: true
 ---
