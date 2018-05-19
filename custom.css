@@ -260,3 +260,8 @@ pagination-inactive {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+h1 {
+	color: #c0c0c0;
+	font-size: 64px;
+}
