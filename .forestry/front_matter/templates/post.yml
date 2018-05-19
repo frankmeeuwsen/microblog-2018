@@ -8,6 +8,9 @@ fields:
 - type: textarea
   name: excerpt
   label: excerpt
+- type: datetime
+  name: date
+  label: date
 - type: boolean
   name: published
   label: published
