@@ -11,6 +11,8 @@ fields:
 - type: datetime
   name: date
   label: date
+  config:
+    required: true
 - type: boolean
   name: published
   label: published
