@@ -20,4 +20,5 @@ fields:
   default: post
   hidden: true
 pages:
+- _posts/future.md
 - _posts/2018-05-19-forestry.md
