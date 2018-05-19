@@ -1,0 +1,25 @@
+{
+  "name": "microblog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frankmeeuwsen/microblog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frankmeeuwsen/microblog/issues"
+  },
+  "homepage": "https://github.com/frankmeeuwsen/microblog#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.7",
+    "gulp": "^3.9.1",
+    "gulp-shell": "^0.6.5",
+    "lodash": "^4.17.10"
+  }
+}

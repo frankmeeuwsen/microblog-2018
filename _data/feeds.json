@@ -1,0 +1,30 @@
+{
+    "opml": {
+        "head": {
+            "title": "feeds.opml",
+            "dateCreated": "Sat, 21 Apr 2018 12:11:52 GMT",
+            "dateModified": "Sat, 21 Apr 2018 21:42:48 GMT",
+            "ownerName": "Frank Meeuwsen",
+            "ownerEmail": "frank@incredibleadventure.nl"
+        },
+        "body": {
+            "outline": [
+                {
+                    "_type": "rss",
+                    "_text": "Pinboard microlink",
+                    "_title": "Pinboard microlink",
+                    "_xmlUrl": "https://feeds.pinboard.in/rss/u:frankmeeuwsen/t:microlink/",
+                    "_htmlUrl": "https://pinboard.in/u:frankmeeuwsen/t:microlink/"
+                },
+                {
+                    "_type": "rss",
+                    "_text": "Frank Meeuwsen's broadcasted articles on Inoreader",
+                    "_title": "Frank Meeuwsen's broadcasted articles on Inoreader",
+                    "_xmlUrl": "https://www.inoreader.com/stream/user/1006530244/tag/user-broadcasted",
+                    "_htmlUrl": "https://www.inoreader.com/stream/user/1006530244/tag/user-broadcasted/view/html?cs=m"
+                }
+            ]
+        },
+        "_version": "2.0"
+    }
+}

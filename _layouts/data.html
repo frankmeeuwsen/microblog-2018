@@ -1,0 +1,12 @@
+---
+layout: default
+---
+De lijst
+<ul>
+{% for feed in site.data.feeds.opml.body.outline %}
+  <li>
+      <a href="{{ feed._htmlUrl }}">{{ feed._title }}</a>
+    </a>
+  </li>
+{% endfor %}
+</ul>
