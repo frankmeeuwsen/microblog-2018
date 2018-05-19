@@ -5,6 +5,9 @@ fields:
 - type: text
   name: title
   label: title
+- type: textarea
+  name: excerpt
+  label: excerpt
 - type: boolean
   name: published
   label: published
@@ -13,8 +16,5 @@ fields:
   label: layout
   default: post
   hidden: true
-- type: textarea
-  name: excerpt
-  label: excerpt
 pages:
 - _posts/2018-05-19-forestry.md
