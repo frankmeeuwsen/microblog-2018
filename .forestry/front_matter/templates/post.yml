@@ -1,0 +1,13 @@
+---
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: textarea
+  name: text
+  label: text
+- type: boolean
+  name: publish
+  label: publish
