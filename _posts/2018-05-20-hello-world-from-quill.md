@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 date: '2018-05-20T09:48:56.668Z'
 title: Hello World from Quill
 slug: hello-world-from-quill

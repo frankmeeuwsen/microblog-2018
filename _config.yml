@@ -24,9 +24,9 @@ github_username:
 avatar: /images/dtd-avatar.png
 
 # Build settings
-
 markdown: kramdown
 theme: minima
+#theme: jekyll-theme-awesome
 plugins:
   - jekyll-feed
 

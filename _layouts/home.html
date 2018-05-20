@@ -1,0 +1,39 @@
+--- 
+layout: default 
+---
+
+<div class="posts">
+
+     {%- if site.posts.size > 0 -%}
+
+     <h2 class="post-list-heading"></h2>{{ page.list_title | default: "Blogposts" }}</h2>
+
+     {%- for post in site.posts -%}
+    <article class="post">
+        <span class="post-meta">
+            <header class="post-header">
+                <time datetime={{ post.date }}>
+                    <!-- Whitespace added for readability -->
+                    {% assign m = post.date | date: "%-m" %} {{ post.date | date: "%-d" }} {% case m %} {% when '1' %}januari {% when '2' %}februari
+                    {% when '3' %}maart {% when '4' %}april {% when '5' %}mei {% when '6' %}juni {% when '7' %}juli {% when '8' %}augustus
+                    {% when '9' %}september {% when '10' %}oktober {% when '11' %}november {% when '12' %}december {% endcase %}
+                    {{ post.date | date: "%Y" }}
+                </time>
+            </header>
+        </span>
+        <h3>
+            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        </h3>
+        <!-- {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%} -->
+        <!-- <span class="post-meta">{{ post.date | date: date_format }}</span> -->
+        <div class="front_entry">
+            {{ post.excerpt }} 
+        </div>
+    </article>
+
+     {%- endfor -%}
+    
+    <p class="rss-subscribe">subscribe
+        <a href="{{ " /feed.xml " | relative_url }}">via RSS</a>
+    </p>
+    {%- endif -%}
