@@ -34,6 +34,7 @@ plugins:
 sass:
   style: :expanded # You might prefer to minify using :compressed
 
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
@@ -46,3 +47,5 @@ sass:
 #   - vendor/gems/
 #   - vendor/ruby/
 exclude: [node_modules, gulpfile.js]
+include: [.well-known]
+destination: _newsite3
