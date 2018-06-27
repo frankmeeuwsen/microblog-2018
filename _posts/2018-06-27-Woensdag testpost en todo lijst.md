@@ -10,11 +10,11 @@ published: true
 
 ### Hosting en publishing
 * Kijken of ik de Jekyll output ergens anders heen kan sturen
-	* In config de regels toevoegen
-		`include: [.well-known]
-		destination: _newsite3`
+	* jekyll build -d ./_newsite
+	* jekyll build -d ~/_newsite2
 * Rsync onderzoeken of een andere manier
 * Alleen template en config bij Gitlab plaatsen. Hoe op te zetten?
+	* Nu alles bij Gitlab geplaatst voor microblog en deploy via Netlify
 * Waar ga ik het hosten? Self hosting bij DO? Wat zou dat kosten? Overzicht hosting S3, DO en Netlify maken
 
 ### Microformats
