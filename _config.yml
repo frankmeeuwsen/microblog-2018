@@ -26,6 +26,7 @@ avatar: /images/dtd-avatar.png
 # Build settings
 markdown: kramdown
 theme: minima
+permalink: /:title/
 #theme: jekyll-theme-awesome
 plugins:
   - jekyll-feed
