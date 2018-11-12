@@ -9,4 +9,4 @@ Hoe kan ik mobiel een goede image toevoegen
 
 ![boek][1] 
 
-![1]: /images/kevinkelly.jpg
+[1]: /images/kevinkelly.jpg

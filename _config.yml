@@ -22,7 +22,8 @@ twitter_username:
 github_username:
 
 avatar: /images/dtd-avatar.png
-
+webmentions:
+  username: 8c1caf47.ngrok.io
 # Build settings
 markdown: kramdown
 theme: minima
