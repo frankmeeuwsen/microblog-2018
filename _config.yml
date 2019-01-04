@@ -18,12 +18,12 @@ email: frank@github.com
 description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username:
-github_username:
+twitter_username: frankmeeuwsen
+github_username: frankmeeuwsen
 
 avatar: /images/dtd-avatar.png
 webmentions:
-  username: 8c1caf47.ngrok.io
+  username: 87fe75ab.ngrok.io
 # Build settings
 markdown: kramdown
 theme: minima
