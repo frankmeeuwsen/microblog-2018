@@ -26,7 +26,7 @@ webmentions:
   username: ecstatic-jang-1b098a.netlify.com
 # Build settings
 markdown: kramdown
-theme: minima
+#theme: minima
 permalink: /:title/
 #theme: jekyll-theme-awesome
 plugins:
